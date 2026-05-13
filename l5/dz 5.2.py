@@ -20,7 +20,7 @@ while True:
     else:
         print("Помилка")
 
-    answer = input("Для продовження введіть yes: ")
-    if answer != "yes" and answer != "y" and answer != "Yes" and answer != "YES" and answer != "yES":
+    answer = input("Для продовження введіть yes: ").strip().lower()
+    if answer != "yes" and answer != "y":
       print ("Кінець")
       break

@@ -7,7 +7,6 @@ def generate_cube_numbers(end):
             return
         yield cube
         number += 1
-
 gen = generate_cube_numbers(1)
 
 assert isgenerator(gen) == True, 'Test0'
